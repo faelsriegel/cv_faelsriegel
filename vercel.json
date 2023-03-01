@@ -1,0 +1,14 @@
+{
+    "build": {
+      "env": {
+        "CI": "true",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      },
+      "ignore": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/*.test.tsx",
+        "**/*.spec.tsx"
+      ]
+    }
+  }

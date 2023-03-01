@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://faelsriegelcv.vercel.app/sitemap.xml
