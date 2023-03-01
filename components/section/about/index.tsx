@@ -90,24 +90,47 @@ const About: React.FC = () => {
             _hover={{ textDecor: 'none' }}
           >
             <Button
-            <button>
-              leftIcon={<SiOverleaf />}
-              font-size="15px"
-              padding="0.7em 2.7em"
-              letter-spacing="0.06em"
-              position="relative"
-              border-radius="0.6em"
-              overflow="hidden"
-              transition="all 0.3s"
-              line-height="1.4em"
-              border="2px solid var(green.200)"
-              background="linear-gradient(to right, #003973 100%, transparent 60%,transparent 0% , #E4E4BE 100%)"
-              color="white.200"
-              box-shadow="inset 10px 10px 10px rgba(27, 253, 156, 0.1), 0 0 9px 3px rgba(27, 253, 156, 0.1)"
-            >
-              Curriculum Vitæ
-              </button>
-            </Button>
+  leftIcon={<SiOverleaf />}
+  style={{
+    padding: '0.7em 2.7em',
+    fontSize: '20px',
+    letterSpacing: '0.06em',
+    position: 'relative',
+    borderRadius: '0.6em',
+    overflow: 'hidden',
+    transition: 'all 0.3s',
+    lineHeight: '1.4em',
+    border: 'none',
+    backgroundColor: 'transparent',
+    color: 'white',
+    boxShadow: 'none',
+  }}
+>
+  <button
+    style={{
+      padding: '10px 50px',
+      fontSize: '20px',
+      border: 'none',
+      borderRadius: '5px',
+      color: 'white',
+      backgroundColor: 'transparent',
+      position: 'relative',
+    }}
+  >
+    <span
+      style={{
+        clipPath: 'inset(50% 50% 50% 50%)',
+        content: '"GLITCH"',
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        display: 'block',
+      }}
+    ></span>
+  </button>
+</Button>
           </Link>
           <Link
             isExternal
