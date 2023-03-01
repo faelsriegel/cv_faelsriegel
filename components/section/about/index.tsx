@@ -86,6 +86,29 @@ const About: React.FC = () => {
         <Stack direction="row" spacing={5} mt="8">
           <Link
             isExternal
+            href="cv"
+            _hover={{ textDecor: 'none' }}
+          >
+            <Button
+              leftIcon={<SiOverleaf />}
+              font-size="15px"
+              padding="0.7em 2.7em"
+              letter-spacing="0.06em"
+              position="relative"
+              border-radius="0.6em"
+              overflow="hidden"
+              transition="all 0.3s"
+              line-height="1.4em"
+              border="2px solid var(green.200)"
+              background="linear-gradient(to right, #003973 100%, transparent 60%,transparent 0% , #E4E4BE 100%)"
+              color="white.200"
+              box-shadow="inset 10px 10px 10px rgba(27, 253, 156, 0.1), 0 0 9px 3px rgba(27, 253, 156, 0.1)"
+            >
+              Curriculum Vitæ
+            </Button>
+          </Link>
+          <Link
+            isExternal
             href="https://www.linkedin.com/in/rafael-stuepp-riegel/"
             _hover={{ textDecor: 'none' }}
           >
@@ -121,29 +144,7 @@ const About: React.FC = () => {
               Github
             </Button>
           </Link>
-          <Link
-            isExternal
-            href="cv"
-            _hover={{ textDecor: 'none' }}
-          >
-            <Button
-              leftIcon={<SiOverleaf />}
-              font-size="15px"
-              padding="0.7em 2.7em"
-              letter-spacing="0.06em"
-              position="relative"
-              border-radius="0.6em"
-              overflow="hidden"
-              transition="all 0.3s"
-              line-height="1.4em"
-              border="2px solid var(green.200)"
-              background="linear-gradient(to right, #003973 100%, transparent 60%,transparent 0% , #E4E4BE 100%)"
-              color="white.200"
-              box-shadow="inset 10px 10px 10px rgba(27, 253, 156, 0.1), 0 0 9px 3px rgba(27, 253, 156, 0.1)"
-            >
-              Curriculum Vitæ
-            </Button>
-          </Link>
+          
         </Stack>
       </motion.div>
     </Flex>
