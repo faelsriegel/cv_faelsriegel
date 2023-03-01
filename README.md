@@ -1,2 +1,2 @@
-<h1 align="center">CV - Rafael Stuepp Riegel</h1>
+<h1 align="center">Portfolio & Curriculum Vitae de Rafael Stuepp Riegel</h1>
 
