@@ -132,6 +132,7 @@ const About: React.FC = () => {
               </button>
               Curriculum Vitae
             </Button>
+            
           </Link>
           <Link
             isExternal
