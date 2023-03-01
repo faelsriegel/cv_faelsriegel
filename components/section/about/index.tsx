@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiOverleaf } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
-import '../../../styles/globals.css' // Importa o arquivo CSS com as classes customizadas
+
 import about from '../../../data/en/about'
 
 const About: React.FC = () => {
@@ -32,6 +32,7 @@ const About: React.FC = () => {
           }
         }}
       >
+
         <Heading
           as="h1"
           color="white.200"
@@ -69,6 +70,7 @@ const About: React.FC = () => {
         >
           {about.description}
         </Text>
+
       </motion.div>
 
       <motion.div
@@ -89,42 +91,24 @@ const About: React.FC = () => {
             href="cv"
             _hover={{ textDecor: 'none' }}
           >
-
-            <Button
-              leftIcon={<SiOverleaf />}
-              style={{
-                padding: '0.7em 2.7em',
-                fontSize: '20px',
-                letterSpacing: '0.06em',
-                position: 'relative',
-                borderRadius: '0.6em',
-                overflow: 'hidden',
-                transition: 'all 0.3s',
-                lineHeight: '1.4em',
-                border: 'none',
-                backgroundColor: 'red',
-                color: 'white',
-                boxShadow: 'none',
-              }}
-            >
-              <button className="custom-button">
-                <span>Curriculum Vitae</span>
-              </button>
-            </Button>
-
+            <button className="custom-button cv-button">
+              <span>
+                <SiOverleaf style={{ marginRight: '5px' }} />
+                Curriculum Vitae
+              </span>
+            </button>
           </Link>
           <Link
             isExternal
             href="https://www.linkedin.com/in/rafael-stuepp-riegel/"
             _hover={{ textDecor: 'none' }}
           >
-            <Button
-              leftIcon={<FaLinkedin />}
-              colorScheme="blue"
-              variant="solid"
-            >
-              Linkedin
-            </Button>
+            <button className="custom-button">
+              <span>
+                <FaLinkedin style={{ marginRight: '5px' }} />
+                Linkedin
+              </span>
+            </button>
           </Link>
 
           <Link
@@ -132,26 +116,222 @@ const About: React.FC = () => {
             href="https://github.com/faelsriegel"
             _hover={{ textDecor: 'none' }}
           >
-            <Button
-              leftIcon={<FaGithub />}
-              font-size="15px"
-              padding="0.7em 2.7em"
-              letter-spacing="0.06em"
-              position="relative"
-              border-radius="0.6em"
-              overflow="hidden"
-              transition="all 0.3s"
-              line-height="1.4em"
-              border="2px solid var(green.200)"
-              background="linear-gradient(to right, rgba(27, 253, 156, 0.4) 100%, transparent 40%,transparent 50% , rgba(27, 253, 156, 0.4) 100%)"
-              color="white.200"
-              box-shadow="inset 10px 10px 10px rgba(27, 253, 156, 0.1), 0 0 9px 3px rgba(27, 253, 156, 0.1)"
-            >
-              Github
-            </Button>
-          </Link>
 
+            <button className="custom-button">
+              <span>
+                <FaGithub style={{ marginRight: '5px' }} />
+                Github
+              </span>
+            </button>
+          </Link>
         </Stack>
+        </motion.div>
+        <motion.div
+        initial="hidden"
+        animate="visible"
+        transition={transition}
+        variants={{
+          hidden: { y: 180, opacity: 0 },
+          visible: {
+            y: 0,
+            opacity: 1
+          }
+        }}
+      >
+      <div className="socket-container">
+        <div className="socket">
+          {<div class="socket">
+            <div class="gel center-gel">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c1 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c2 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c3 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c4 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c5 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c6 r1">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+
+            <div class="gel c7 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+
+            <div class="gel c8 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c9 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c10 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c11 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c12 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c13 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c14 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c15 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c16 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c17 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c18 r2">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c19 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c20 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c21 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c22 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c23 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c24 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c25 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c26 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c28 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c29 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c30 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c31 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c32 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c33 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c34 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c35 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c36 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+            <div class="gel c37 r3">
+              <div class="hex-brick h1"></div>
+              <div class="hex-brick h2"></div>
+              <div class="hex-brick h3"></div>
+            </div>
+
+          </div>}
+        </div>
+      </div>
       </motion.div>
     </Flex>
   )
