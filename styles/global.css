@@ -27,14 +27,3 @@
     url('/fonts/poppins-v13-latin-500.woff2') format('woff2'),
     url('/fonts/poppins-v13-latin-500.woff') format('woff');
 }
-
-button,button::after {
-  padding: 10px 50px;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  background-color: transparent;
-  position: relative;
-}
-
