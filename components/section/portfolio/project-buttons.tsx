@@ -14,7 +14,7 @@ const ProjectButtons: React.FC<ProjectButtonsProps> = ({
   githubUrl
 }) => {
   return (
-    <Flex flexDir="row" mt="6">
+    <Flex flexDir="row" mt="4">
       {playStoreUrl && (
         <Link
           isExternal
@@ -54,39 +54,37 @@ const ProjectButtons: React.FC<ProjectButtonsProps> = ({
             aria-label="Veja o Website Online"
             label="Veja o Website Online"
             placement="top"
-            bg="blue.500"
+            bg="white"
+            color="black"
           >
-            <Button
-              fontWeight="normal"
-              leftIcon={<FaLink />}
-              bg="blue.500"
-              colorScheme="black"
-              color="white"
-            >
-              Website
-            </Button>
+            <button className="custom-button">
+              <span>
+                <FaLink style={{ marginRight: '5px' }} />
+                Website
+              </span>
+            </button>
           </Tooltip>
         </Link>
       )}
 
       {githubUrl && (
-        <Link isExternal href={githubUrl} mr="4" _hover={{ textDecor: 'none' }}>
+        <Link isExternal href={githubUrl} mr="2" _hover={{ textDecor: 'none' }}>
           <Tooltip
             hasArrow
             aria-label="Github Repository"
             label="Repositorio Github"
             placement="top"
-            bg="gray.500"
+            bg="white"
+            color="black"
           >
-            <Button
-              fontWeight="normal"
-              leftIcon={<FaGithub />}
-              bg="rgba(27, 253, 156, 0.4)"
-              colorScheme="black"
-              color="white"
-            >
-              Github
-            </Button>
+            
+            <button className="custom-button">
+              <span>
+                <FaGithub style={{ marginRight: '5px' }} />
+                Github
+              </span>
+            </button>
+            
           </Tooltip>
         </Link>
       )}
