@@ -102,7 +102,7 @@ const About: React.FC = () => {
                 transition: 'all 0.3s',
                 lineHeight: '1.4em',
                 border: 'none',
-                backgroundColor: 'blue',
+                backgroundColor: 'red',
                 color: 'white',
                 boxShadow: 'none',
               }}
