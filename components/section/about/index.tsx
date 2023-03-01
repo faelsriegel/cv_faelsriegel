@@ -101,7 +101,7 @@ const About: React.FC = () => {
                 transition: 'all 0.3s',
                 lineHeight: '1.4em',
                 border: 'none',
-                backgroundColor: 'transparent',
+                backgroundColor: 'blue',
                 color: 'white',
                 boxShadow: 'none',
               }}
@@ -113,14 +113,14 @@ const About: React.FC = () => {
                   border: 'none',
                   borderRadius: '5px',
                   color: 'white',
-                  backgroundColor: 'transparent',
+                  backgroundColor: 'blue',
                   position: 'relative',
                 }}
               >
                 <span
                   style={{
                     clipPath: 'inset(50% 50% 50% 50%)',
-                    content: '"GLITCH"',
+                    content: '"Curriculum Vitae"',
                     position: 'absolute',
                     top: 0,
                     left: 0,
