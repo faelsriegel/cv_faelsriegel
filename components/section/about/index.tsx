@@ -90,6 +90,7 @@ const About: React.FC = () => {
             _hover={{ textDecor: 'none' }}
           >
             <Button
+            <button>
               leftIcon={<SiOverleaf />}
               font-size="15px"
               padding="0.7em 2.7em"
@@ -105,6 +106,7 @@ const About: React.FC = () => {
               box-shadow="inset 10px 10px 10px rgba(27, 253, 156, 0.1), 0 0 9px 3px rgba(27, 253, 156, 0.1)"
             >
               Curriculum Vitæ
+              </button>
             </Button>
           </Link>
           <Link
