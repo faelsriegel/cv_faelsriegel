@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiOverleaf } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
-import '../../../styles/globals.css'; // Importa o arquivo CSS com as classes customizadas
+import '../../../styles/globals.css' // Importa o arquivo CSS com as classes customizadas
 import about from '../../../data/en/about'
 
 const About: React.FC = () => {
