@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiOverleaf } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
-
+import '../../../styles/globals.css'; // Importa o arquivo CSS com as classes customizadas
 import about from '../../../data/en/about'
 
 const About: React.FC = () => {
@@ -90,49 +90,28 @@ const About: React.FC = () => {
             _hover={{ textDecor: 'none' }}
           >
             <Button
-              leftIcon={<SiOverleaf />}
-              style={{
-                padding: '0.7em 2.7em',
-                fontSize: '20px',
-                letterSpacing: '0.06em',
-                position: 'relative',
-                borderRadius: '0.6em',
-                overflow: 'hidden',
-                transition: 'all 0.3s',
-                lineHeight: '1.4em',
-                border: 'none',
-                backgroundColor: 'blue',
-                color: 'white',
-                boxShadow: 'none',
-              }}
-            >
-              <button
-                style={{
-                  padding: '10px 50px',
-                  fontSize: '20px',
-                  border: 'none',
-                  borderRadius: '5px',
-                  color: 'white',
-                  backgroundColor: 'blue',
-                  position: 'relative',
-                }}
-              >
-                <span
-                  style={{
-                    clipPath: 'inset(50% 50% 50% 50%)',
-                    content: '"Curriculum Vitae"',
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    display: 'block',
-                  }}
-                ></span>
-              </button>
-              Curriculum Vitae
-            </Button>
-            
+      leftIcon={<SiOverleaf />}
+      style={{
+        padding: '0.7em 2.7em',
+        fontSize: '20px',
+        letterSpacing: '0.06em',
+        position: 'relative',
+        borderRadius: '0.6em',
+        overflow: 'hidden',
+        transition: 'all 0.3s',
+        lineHeight: '1.4em',
+        border: 'none',
+        backgroundColor: 'blue',
+        color: 'white',
+        boxShadow: 'none',
+      }}
+    >
+      <button className="custom-button">
+        <span>Button Text</span>
+      </button>
+      Curriculum Vitae
+    </Button>
+
           </Link>
           <Link
             isExternal
