@@ -7,13 +7,13 @@ const getExperienceTime = (startDate: Date) => {
   months += currDate.getMonth();
 
   if (months < 12) {
-    return `${months}+ month${months > 1 ? 's' : ''} experience`
+    return `+ de ${months} mes${months > 1 ? 'es' : ''} de experiência`
   }
   else {
     const restMonths = months % 12
     const years = Math.round(months / 12)
 
-    return `${years}+ year${years > 1 ? 's' : ''} experience`
+    return `+ de ${years} ano${years > 1 ? 's' : ''} de experiência`
   }
 }
 
