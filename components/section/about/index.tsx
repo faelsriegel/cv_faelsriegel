@@ -89,28 +89,28 @@ const About: React.FC = () => {
             href="cv"
             _hover={{ textDecor: 'none' }}
           >
+
             <Button
-      leftIcon={<SiOverleaf />}
-      style={{
-        padding: '0.7em 2.7em',
-        fontSize: '20px',
-        letterSpacing: '0.06em',
-        position: 'relative',
-        borderRadius: '0.6em',
-        overflow: 'hidden',
-        transition: 'all 0.3s',
-        lineHeight: '1.4em',
-        border: 'none',
-        backgroundColor: 'blue',
-        color: 'white',
-        boxShadow: 'none',
-      }}
-    >
-      <button className="custom-button">
-        <span>Button Text</span>
-      </button>
-      Curriculum Vitae
-    </Button>
+              leftIcon={<SiOverleaf />}
+              style={{
+                padding: '0.7em 2.7em',
+                fontSize: '20px',
+                letterSpacing: '0.06em',
+                position: 'relative',
+                borderRadius: '0.6em',
+                overflow: 'hidden',
+                transition: 'all 0.3s',
+                lineHeight: '1.4em',
+                border: 'none',
+                backgroundColor: 'blue',
+                color: 'white',
+                boxShadow: 'none',
+              }}
+            >
+              <button className="custom-button">
+                <span>Curriculum Vitae</span>
+              </button>
+            </Button>
 
           </Link>
           <Link
