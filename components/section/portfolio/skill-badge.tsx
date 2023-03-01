@@ -11,7 +11,7 @@ const SkillBadge: React.FC<SkillBadge> = ({ skills }) => {
       <Flex flexWrap="wrap">
         {skills.map(skill => (
           <Box key={skill} mr="2" _last={{ mr: '0' }}>
-            <Badge bg="red.800" color="white">
+            <Badge bg="white" color="black">
               {skill}
             </Badge>
           </Box>
@@ -20,5 +20,27 @@ const SkillBadge: React.FC<SkillBadge> = ({ skills }) => {
     )
   else return <></>
 }
+
+
+<div class="badges">
+  <div class="badge one">
+    <div class="badgeDetails">
+      <div class="badgeDetailsHaeder">badge Header</div>
+      <div class="badgeDetailsButton">Click me</div>
+    </div>
+  </div>
+  <div class="badge two">
+    <div class="badgeDetails">
+      <div class="badgeDetailsHaeder">badge Header</div>
+      <div class="badgeDetailsButton">Click me</div>
+    </div>
+  </div>
+  <div class="badge three">
+    <div class="badgeDetails">
+      <div class="badgeDetailsHaeder">badge Header</div>
+      <div class="badgeDetailsButton">Click me</div>
+    </div>
+  </div>
+</div>
 
 export default SkillBadge

@@ -29,7 +29,7 @@ const Item: React.FC<ProjectsInterface> = ({
       boxShadow="0px 0px 20px rgb(100, 100, 100)"
       transition="all 0.6s"
       _hover={{
-        transform: 'scale(1.03)'
+        transform: 'scale(1)'
       }}
     >
       {/* Image */}
@@ -77,6 +77,7 @@ const Item: React.FC<ProjectsInterface> = ({
         />
       </Flex>
     </Box>
+    
   )
 }
 
