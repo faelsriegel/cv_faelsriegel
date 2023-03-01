@@ -90,47 +90,47 @@ const About: React.FC = () => {
             _hover={{ textDecor: 'none' }}
           >
             <Button
-  leftIcon={<SiOverleaf />}
-  style={{
-    padding: '0.7em 2.7em',
-    fontSize: '20px',
-    letterSpacing: '0.06em',
-    position: 'relative',
-    borderRadius: '0.6em',
-    overflow: 'hidden',
-    transition: 'all 0.3s',
-    lineHeight: '1.4em',
-    border: 'none',
-    backgroundColor: 'transparent',
-    color: 'white',
-    boxShadow: 'none',
-  }}
->
-  <button
-    style={{
-      padding: '10px 50px',
-      fontSize: '20px',
-      border: 'none',
-      borderRadius: '5px',
-      color: 'white',
-      backgroundColor: 'transparent',
-      position: 'relative',
-    }}
-  >
-    <span
-      style={{
-        clipPath: 'inset(50% 50% 50% 50%)',
-        content: '"GLITCH"',
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        display: 'block',
-      }}
-    ></span>
-  </button>
-</Button>
+              leftIcon={<SiOverleaf />}
+              style={{
+                padding: '0.7em 2.7em',
+                fontSize: '20px',
+                letterSpacing: '0.06em',
+                position: 'relative',
+                borderRadius: '0.6em',
+                overflow: 'hidden',
+                transition: 'all 0.3s',
+                lineHeight: '1.4em',
+                border: 'none',
+                backgroundColor: 'transparent',
+                color: 'white',
+                boxShadow: 'none',
+              }}
+            >
+              <button
+                style={{
+                  padding: '10px 50px',
+                  fontSize: '20px',
+                  border: 'none',
+                  borderRadius: '5px',
+                  color: 'white',
+                  backgroundColor: 'transparent',
+                  position: 'relative',
+                }}
+              >
+                <span
+                  style={{
+                    clipPath: 'inset(50% 50% 50% 50%)',
+                    content: '"GLITCH"',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    display: 'block',
+                  }}
+                ></span>
+              </button>
+            </Button>
           </Link>
           <Link
             isExternal
@@ -169,7 +169,7 @@ const About: React.FC = () => {
               Github
             </Button>
           </Link>
-          
+
         </Stack>
       </motion.div>
     </Flex>
