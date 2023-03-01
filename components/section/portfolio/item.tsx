@@ -26,10 +26,10 @@ const Item: React.FC<ProjectsInterface> = ({
       m="3"
       width={{ base: '320px', xl: '360px' }}
       flexGrow={{ sm: 1, lg: 0 }}
-      boxShadow="0px 0px 20px rgb(100, 100, 100)"
+      boxShadow="0px 0px 10px rgb(100, 100, 100)"
       transition="all 0.6s"
       _hover={{
-        transform: 'scale(1)'
+        transform: 'scale(1.02)'
       }}
     >
       {/* Image */}

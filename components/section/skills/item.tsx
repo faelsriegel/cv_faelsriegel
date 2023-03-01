@@ -15,10 +15,10 @@ const SkillsItem: React.FC<SkillsInterface> = ({ name, expTime, icon }) => {
       m="3"
       flexBasis="250px"
       flexGrow={1}
-      boxShadow="0px 0px 20px rgb(100, 100, 100)"
+      boxShadow="0px 0px 10px rgb(100, 100, 100)"
       transition="all 0.5s"
       _hover={{
-        transform: 'scale(1.05)'
+        transform: 'scale(1.02)'
       }}
     >
       <Box as={icon} w="50px" h="50px" color="white.500" alignSelf="center" />
