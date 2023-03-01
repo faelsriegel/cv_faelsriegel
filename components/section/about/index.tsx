@@ -130,6 +130,7 @@ const About: React.FC = () => {
                   }}
                 ></span>
               </button>
+              Curriculum Vitae
             </Button>
           </Link>
           <Link
