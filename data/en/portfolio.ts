@@ -3,7 +3,7 @@ import { ProjectsInterface } from "../../components/section/portfolio/types"
 const projects: ProjectsInterface[] = [
   {
     name: 'SAPU - Dashboard',
-    description: 'O app web SAPU, consiste em ser um sistema de gerenciamento e analise da matriz curricular do discente.',
+    description: 'O app web Sistema Analitico de Progressão Universitaria, consiste em ser um sistema de gerenciamento e analise da matriz curricular do discente.',
     imgSource: '/images/projects/projeto4.jpeg',
     skills: ['Next.js', 'Node.js', 'Typescript'],
     websiteUrl: 'https://sapu.eco.com.br',

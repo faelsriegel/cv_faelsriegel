@@ -21,7 +21,7 @@ export const footerSocialLinks: footerSocialLinksProps[] = [
     icon: FaLinkedin
   },
   {
-    label: 'Envie Email',
+    label: 'Envie um Email para Mim',
     link: 'mailto:rafaelsriegel@gmail.com',
     icon: SiGmail
   },
