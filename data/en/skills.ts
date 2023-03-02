@@ -1,4 +1,4 @@
-import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaDocker, FaJava, FaJs, FaLinux, FaNpm } from 'react-icons/fa'
+import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaDocker, FaJava, FaJs, FaLinux, FaNpm, FaAws, FaDigitalOcean } from 'react-icons/fa'
 import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFigma, SiJenkins, SiCplusplus, SiBootstrap } from 'react-icons/si'
 import { ImGit } from 'react-icons/im'
 import getExperienceTime from '../../utils/getExperienceTime'
